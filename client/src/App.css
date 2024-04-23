@@ -1,10 +1,20 @@
+*{
+  background-color: #282c34;
+}
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+h3{
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
