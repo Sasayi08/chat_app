@@ -1,17 +1,27 @@
+@font-face {
+  font-family: "Custom";
+  src: url('fonts/conthrax-sb.otf');
+}
 *{
   background-color: #282c34;
 }
 .App {
   text-align: center;
   display:flex;
+  float:inherit;
   flex-direction: column;
-  border: 4px solid #61dafb;
+  border: 4px solid #8353c2;
   margin-top: 150px;
   border-radius: 5%;
-  width: 300px;
+  width: 350px;
 }
 .userName{
   margin: 10px;
+}
+.outer_cont{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn{
   margin:15px;
@@ -21,6 +31,7 @@
   display:flex;
   flex-direction: column;
   margin: 30px;
+  text-align: center;
 }
 
 .App-logo {
@@ -29,6 +40,7 @@
 }
 h3{
   color: white;
+  font-family:'Custom', sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -48,7 +60,10 @@ h3{
   color: white;
  
 }
-
+p{
+  color: white;
+  font-family: 'Custom';
+}
 .App-link {
   color: #61dafb;
 }
