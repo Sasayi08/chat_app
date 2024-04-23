@@ -5,8 +5,22 @@
   text-align: center;
   display:flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 100px;
+  border: 4px solid #61dafb;
+  margin-top: 150px;
+  border-radius: 5%;
+  width: 300px;
+}
+.userName{
+  margin: 10px;
+}
+.btn{
+  margin:15px;
+  color:white;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  margin: 30px;
 }
 
 .App-logo {
@@ -32,6 +46,7 @@ h3{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+ 
 }
 
 .App-link {

@@ -18,9 +18,12 @@ function App() {
   }
 
   return (
+    
+
     <div className="App">
         <h3>Join a chat</h3>
-        <input class="userName"
+       <div className="container">
+        <input className="userName"
           type='text' 
           placeholder='Enter Username...' 
           onChange={(event) => {
@@ -28,15 +31,16 @@ function App() {
           }}
         />
 
-        <input class="userName"
+        <input className="userName"
           type='text' 
           placeholder='Enter Room ID..' 
           onChange={(event) => {
             setRoom(event.target.value);
           }}
         />
-        <button onClick={joinRoom}>Join</button>
+        <button class="btn" onClick={joinRoom}>Join</button>
         <Chat socket={socket} username={username} room={room}/>
+    </div>
     </div>
   );
 }
