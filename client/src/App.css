@@ -15,8 +15,12 @@
   border-radius: 5%;
   width: 350px;
 }
+.message_chat{
+  color: white;
+}
 .userName{
   margin: 10px;
+  color: white;
 }
 .outer_cont{
   display: flex;
